@@ -1,0 +1,40 @@
+body {
+    background-image: url('acadbg_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Macondo Swash Caps", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFFFFFff;
+    text-align: center;
+    padding: 20px;
+    font-size: 75px;
+}
+.mycontainer {
+    width: 30%;
+    margin: 90px 345px ;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+    gap: 20px;
+}
+button {
+    background-color: #e1ba3f;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Macondo Swash Caps", cursive;
+    width: 250px; /* Or any desired equal value */
+    height: 250px; /* Must match the width for a perfect circle */
+    border-radius: 50%;
+    border: 2px solid #1f6924; /* Example: 2px solid blue border */
+    background-color: #509724; /* Optional: light gray background */
+}

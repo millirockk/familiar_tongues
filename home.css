@@ -1,0 +1,49 @@
+
+
+ body {
+  background-image: url(home_sky.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+background-size:cover;
+  background-position: center;
+}
+
+.square-button {
+  width: 250px; 
+  height: 250px; 
+  background-color: #00ffc881;
+  color: rgb(240, 253, 151); 
+  border: none; 
+  border-radius: 0; 
+  font-size: 30px;
+  cursor: pointer;
+  padding:0;
+
+ 
+
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    background-color:#c5bfe0;
+    border-radius: 100%;
+}
+
+.glow-text {
+  color: #fff; 
+  text-shadow: 0 0 10px #fff, 
+               0 0 20px #fff,
+               0 0 30px hsl(51, 100%, 45%),
+               0 0 40px #e68200;
+               padding:0;
+    margin:center;           
+    font: 'Open Sans';
+}
+
+.icon {
+    height: 200px;
+    
+    padding: 0;
+}
+

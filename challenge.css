@@ -1,0 +1,40 @@
+body {
+  background-image: url(Challenge_Sky.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+background-size:cover;
+  background-position: center;
+}
+.glow-text2 {
+  color: #fff; 
+  text-shadow: 0 0 10px #fff, 
+               0 0 20px #fff,
+               0 0 30px hsl(209, 100%, 45%),
+               0 0 40px #d70ff1;
+               padding:0;
+    margin:center;           
+    font: 'Open Sans';
+}
+
+
+.square-button {
+  width: 400px; 
+  height: 360px; 
+  background-color: #58536881;
+  color: rgb(240, 253, 151); 
+  border: none; 
+  border-radius: 10%; 
+  font-size: 30px;
+  cursor: pointer;
+  padding:0;
+
+ 
+
+}
+
+.circle {
+    height: 80px;
+    width: 200px;
+    background-color:#c0b2ff;
+    border-radius: 60%;
+}
